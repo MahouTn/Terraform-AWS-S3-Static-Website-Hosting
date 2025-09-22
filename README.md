@@ -4,7 +4,7 @@
 This project demonstrates the use of Terraform to provision and host a static website on Amazon Web Services (AWS) S3. It's a foundational Infrastructure as Code (IaC) project that showcases key DevOps skills such as automation, cloud resource management, and state management.
 The website is configured with a public access policy, a custom index.html file, and an error.html page for handling "404 Not Found" errors.
 
-![S3](https://imgur.com/wwTuXOT)
+![S3](https://i.imgur.com/wwTuXOT.png)
 
 
 🏗️ Architecture
@@ -50,7 +50,7 @@ Follow these steps to deploy the static website:
     After a successful terraform apply, the output will provide the public URL of your new website.
     -> terraform output "website_endpoint"
 
-![S3](https://imgur.com/KkPDbNZ)
+![S3](https://i.imgur.com/KkPDbNZ.png)
 
 
 🧹 Cleanup
