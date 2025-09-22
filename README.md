@@ -29,33 +29,34 @@ Before deploying this project, ensure you have the following installed and confi
 Follow these steps to deploy the static website:
 
 1. Clone the Repository:
-    -> git clone [https://github.com/MahouTn/Terraform-AWS-S3-Static-Website-Hosting.git]
-    -> cd Terraform-AWS-S3-Static-Website-Hosting
+
+ ```-> git clone [https://github.com/MahouTn/Terraform-AWS-S3-Static-Website-Hosting.git]```
+ ```-> cd Terraform-AWS-S3-Static-Website-Hosting```
 
 
 
 2. Initialize Terraform:
     This command downloads the necessary AWS provider plugins.
-    -> terraform init
+   ``` -> terraform init ```
 
 
 
 3. Apply the Configuration:
     This command will create all the AWS resources defined in the configuration files.
-    -> terraform apply
+    ```-> terraform apply```
 
 
 
 4. Get the Website URL:
     After a successful terraform apply, the output will provide the public URL of your new website.
-    -> terraform output "website_endpoint"
+    ```-> terraform output "website_endpoint"```
 
 ![S3](https://i.imgur.com/KkPDbNZ.png)
 
 
 ### 🧹 Cleanup
     To avoid incurring any costs, you can destroy all the created resources with a single command.
-    -> terraform destroy
+    ```-> terraform destroy```
 
 
 
